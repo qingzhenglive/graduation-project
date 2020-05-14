@@ -1,0 +1,71 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="s1" verbose="1">
+	<listeners>
+		<!-- testng的XML配置文件中添加这些内容 -->
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<!-- <test name="Teacher1">
+		<classes>
+			<class name="testCase.ChangeClassTest"></class>
+		</classes>
+	</test>
+	<test name="Teacher2">
+		<classes>
+			<class name="testCase.TeacherInforInquiryTest"></class>
+		</classes>
+	</test>
+	<test name="Teacher3">
+		<classes>
+			<class name="testCase.TeacherAchievementInquiryTest"></class>
+		</classes>
+	</test>
+	<test name="Teacher4">
+		<classes>
+			<class name="testCase.TeacherScoreEntryTest"></class>
+		</classes>
+	</test>
+	<test name="Teacher5">
+		<classes>
+			<class name="testCase.TeacherPersonalCenterTest"></class>
+		</classes>
+	</test>
+	<test name="sendMail">
+		<classes>
+			<class name="sendMail.SendRecentReportMail"></class>
+		</classes>
+	</test> -->
+	<test name="testStudent">
+		<classes>
+			<class name="testCase.StudentCourseTest"></class>
+			<class name="testCase.StudentQueryScheduleTest"></class>
+			<class name="testCase.StudentCheckResultsTest"></class>
+			<class name="testCase.StudentEnquiryClassroomTest"></class>
+			<class name="testCase.StudentEvaluateTest"></class>
+			<class name="testCase.StudentPersonalCenterTest"></class>
+			<class name="sendMail.SendRecentReportMail"></class>
+		</classes>
+	</test>
+	<!-- <test name="testTeacher">
+		<classes>
+			<class name="testCase.ChangeClassTest"></class>
+			<class name="testCase.TeacherInforInquiryTest"></class>
+			<class name="testCase.TeacherAchievementInquiryTest"></class>
+			<class name="testCase.TeacherScoreEntryTest"></class>
+			<class name="testCase.TeacherPersonalCenterTest"></class>
+			<class name="sendMail.SendRecentReportMail"></class>
+		</classes>
+	</test> -->
+	<!-- <test name="testGraudate">
+		<classes>
+			<class name="testCase.GraduateClassroomTest"></class>
+			<class name="testCase.GraduateSituationTest"></class>
+			<class name="testCase.GraduateUploadVideoTest"></class>
+			<class name="testCase.GraudatePracticeSquareTest"></class>
+			<class name="sendMail.SendRecentReportMail"></class>
+		</classes>
+	</test> -->
+
+
+</suite>

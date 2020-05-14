@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testGraudate"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.655">
+  <properties />
+  
+  
+            <testcase name="testPage" time="0.401" classname="testCase.GraudatePracticeSquareTest" />
+                <testcase name="testPracticeSquare" time="0.224" classname="testCase.GraudatePracticeSquareTest" />
+                <testcase name="testPracticeMessage" time="0.451" classname="testCase.GraudatePracticeSquareTest" />
+                <testcase name="testMessage" time="1.047" classname="testCase.GraudatePracticeSquareTest" />
+                <testcase name="testOtherJob" time="0.532" classname="testCase.GraudatePracticeSquareTest" />
+      
+</testsuite>

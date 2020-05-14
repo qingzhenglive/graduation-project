@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testTeacher"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="67.960">
+  <properties />
+  
+  
+            <testcase name="testMycourse" time="7.441" classname="testCase.TeacherScoreEntryTest" />
+                <testcase name="testScore" time="13.566" classname="testCase.TeacherScoreEntryTest" />
+                <testcase name="testOverview" time="6.395" classname="testCase.TeacherScoreEntryTest" />
+                <testcase name="testNextPage" time="6.535" classname="testCase.TeacherScoreEntryTest" />
+                <testcase name="testProportion" time="6.438" classname="testCase.TeacherScoreEntryTest" />
+                <testcase name="testCourseProportion" time="8.120" classname="testCase.TeacherScoreEntryTest" />
+                <testcase name="testGoPage" time="9.873" classname="testCase.TeacherScoreEntryTest" />
+                <testcase name="testScorePage" time="9.592" classname="testCase.TeacherScoreEntryTest" />
+      
+</testsuite>

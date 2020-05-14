@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testTeacher"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="35.466">
+  <properties />
+  
+  
+            <testcase name="testViewStudent" time="6.664" classname="testCase.TeacherInforInquiryTest" />
+                <testcase name="testMycourse" time="7.156" classname="testCase.TeacherInforInquiryTest" />
+                <testcase name="testMyTeachingClassNext" time="3.515" classname="testCase.TeacherInforInquiryTest" />
+                <testcase name="testCheckMyTeachingClass" time="3.451" classname="testCase.TeacherInforInquiryTest" />
+                <testcase name="test" time="0.674" classname="testCase.TeacherInforInquiryTest" />
+                <testcase name="testInforInquiry" time="6.456" classname="testCase.TeacherInforInquiryTest" />
+                <testcase name="testListOfStudent" time="7.550" classname="testCase.TeacherInforInquiryTest" />
+      
+</testsuite>

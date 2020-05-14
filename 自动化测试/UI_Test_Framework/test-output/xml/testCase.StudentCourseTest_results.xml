@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testStudent"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="23.338">
+  <properties />
+  
+  
+            <testcase name="testSelectedCourse" time="3.561" classname="testCase.StudentCourseTest" />
+                <testcase name="testLogin" time="3.262" classname="testCase.StudentCourseTest" />
+                <testcase name="testNextPage" time="3.612" classname="testCase.StudentCourseTest" />
+                <testcase name="testSubmitDirectly" time="3.703" classname="testCase.StudentCourseTest" />
+                <testcase name="testIntoChooseCourse" time="3.408" classname="testCase.StudentCourseTest" />
+                <testcase name="testEnableCourse" time="5.792" classname="testCase.StudentCourseTest" />
+      
+</testsuite>

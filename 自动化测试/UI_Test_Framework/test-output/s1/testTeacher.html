@@ -1,0 +1,234 @@
+<html>
+<head>
+<title>TestNG:  testTeacher</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>testTeacher</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 08 12:32:36 CST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>297 seconds (297309 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCase.TeacherInforInquiryTest.test()'><b>test</b><br>Test class: testCase.TeacherInforInquiryTest</td>
+<td></td>
+<td>0</td>
+<td>testCase.TeacherInforInquiryTest@5829e4f4</td></tr>
+<tr>
+<td title='testCase.TeacherAchievementInquiryTest.testAchievementClick()'><b>testAchievementClick</b><br>Test class: testCase.TeacherAchievementInquiryTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.TeacherAchievementInquiryTest@4218500f</td></tr>
+<tr>
+<td title='testCase.ChangeClassTest.testAllChange()'><b>testAllChange</b><br>Test class: testCase.ChangeClassTest</td>
+<td></td>
+<td>6</td>
+<td>testCase.ChangeClassTest@708400f6</td></tr>
+<tr>
+<td title='testCase.TeacherAchievementInquiryTest.testCertainAchievement()'><b>testCertainAchievement</b><br>Test class: testCase.TeacherAchievementInquiryTest</td>
+<td></td>
+<td>4</td>
+<td>testCase.TeacherAchievementInquiryTest@4218500f</td></tr>
+<tr>
+<td title='testCase.TeacherPersonalCenterTest.testChangeMessage()'><b>testChangeMessage</b><br>Test class: testCase.TeacherPersonalCenterTest</td>
+<td></td>
+<td>5</td>
+<td>testCase.TeacherPersonalCenterTest@1b2c4efb</td></tr>
+<tr>
+<td title='testCase.TeacherPersonalCenterTest.testChangePassword()'><b>testChangePassword</b><br>Test class: testCase.TeacherPersonalCenterTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.TeacherPersonalCenterTest@1b2c4efb</td></tr>
+<tr>
+<td title='testCase.TeacherAchievementInquiryTest.testCheckAchievement()'><b>testCheckAchievement</b><br>Test class: testCase.TeacherAchievementInquiryTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.TeacherAchievementInquiryTest@4218500f</td></tr>
+<tr>
+<td title='testCase.TeacherInforInquiryTest.testCheckMyTeachingClass()'><b>testCheckMyTeachingClass</b><br>Test class: testCase.TeacherInforInquiryTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.TeacherInforInquiryTest@5829e4f4</td></tr>
+<tr>
+<td title='testCase.ChangeClassTest.testClass()'><b>testClass</b><br>Test class: testCase.ChangeClassTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.ChangeClassTest@708400f6</td></tr>
+<tr>
+<td title='testCase.TeacherScoreEntryTest.testCourseProportion()'><b>testCourseProportion</b><br>Test class: testCase.TeacherScoreEntryTest</td>
+<td></td>
+<td>8</td>
+<td>testCase.TeacherScoreEntryTest@4bff64c2</td></tr>
+<tr>
+<td title='testCase.TeacherAchievementInquiryTest.testGoPage()'><b>testGoPage</b><br>Test class: testCase.TeacherAchievementInquiryTest</td>
+<td></td>
+<td>6</td>
+<td>testCase.TeacherAchievementInquiryTest@4218500f</td></tr>
+<tr>
+<td title='testCase.TeacherScoreEntryTest.testGoPage()'><b>testGoPage</b><br>Test class: testCase.TeacherScoreEntryTest</td>
+<td></td>
+<td>9</td>
+<td>testCase.TeacherScoreEntryTest@4bff64c2</td></tr>
+<tr>
+<td title='testCase.TeacherInforInquiryTest.testInforInquiry()'><b>testInforInquiry</b><br>Test class: testCase.TeacherInforInquiryTest</td>
+<td></td>
+<td>6</td>
+<td>testCase.TeacherInforInquiryTest@5829e4f4</td></tr>
+<tr>
+<td title='testCase.TeacherPersonalCenterTest.testIntoChangePassword()'><b>testIntoChangePassword</b><br>Test class: testCase.TeacherPersonalCenterTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.TeacherPersonalCenterTest@1b2c4efb</td></tr>
+<tr>
+<td title='testCase.TeacherInforInquiryTest.testListOfStudent()'><b>testListOfStudent</b><br>Test class: testCase.TeacherInforInquiryTest</td>
+<td></td>
+<td>7</td>
+<td>testCase.TeacherInforInquiryTest@5829e4f4</td></tr>
+<tr>
+<td title='testCase.TeacherInforInquiryTest.testMyTeachingClassNext()'><b>testMyTeachingClassNext</b><br>Test class: testCase.TeacherInforInquiryTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.TeacherInforInquiryTest@5829e4f4</td></tr>
+<tr>
+<td title='testCase.TeacherInforInquiryTest.testMycourse()'><b>testMycourse</b><br>Test class: testCase.TeacherInforInquiryTest</td>
+<td></td>
+<td>7</td>
+<td>testCase.TeacherInforInquiryTest@5829e4f4</td></tr>
+<tr>
+<td title='testCase.TeacherScoreEntryTest.testMycourse()'><b>testMycourse</b><br>Test class: testCase.TeacherScoreEntryTest</td>
+<td></td>
+<td>7</td>
+<td>testCase.TeacherScoreEntryTest@4bff64c2</td></tr>
+<tr>
+<td title='testCase.ChangeClassTest.testNextPage()'><b>testNextPage</b><br>Test class: testCase.ChangeClassTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.ChangeClassTest@708400f6</td></tr>
+<tr>
+<td title='testCase.TeacherAchievementInquiryTest.testNextPage()'><b>testNextPage</b><br>Test class: testCase.TeacherAchievementInquiryTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.TeacherAchievementInquiryTest@4218500f</td></tr>
+<tr>
+<td title='testCase.TeacherScoreEntryTest.testNextPage()'><b>testNextPage</b><br>Test class: testCase.TeacherScoreEntryTest</td>
+<td></td>
+<td>6</td>
+<td>testCase.TeacherScoreEntryTest@4bff64c2</td></tr>
+<tr>
+<td title='testCase.ChangeClassTest.testNoneChange()'><b>testNoneChange</b><br>Test class: testCase.ChangeClassTest</td>
+<td></td>
+<td>5</td>
+<td>testCase.ChangeClassTest@708400f6</td></tr>
+<tr>
+<td title='testCase.TeacherScoreEntryTest.testOverview()'><b>testOverview</b><br>Test class: testCase.TeacherScoreEntryTest</td>
+<td></td>
+<td>6</td>
+<td>testCase.TeacherScoreEntryTest@4bff64c2</td></tr>
+<tr>
+<td title='testCase.TeacherScoreEntryTest.testProportion()'><b>testProportion</b><br>Test class: testCase.TeacherScoreEntryTest</td>
+<td></td>
+<td>6</td>
+<td>testCase.TeacherScoreEntryTest@4bff64c2</td></tr>
+<tr>
+<td title='testCase.ChangeClassTest.testRoomChange()'><b>testRoomChange</b><br>Test class: testCase.ChangeClassTest</td>
+<td></td>
+<td>4</td>
+<td>testCase.ChangeClassTest@708400f6</td></tr>
+<tr>
+<td title='testCase.TeacherScoreEntryTest.testScore()'><b>testScore</b><br>Test class: testCase.TeacherScoreEntryTest</td>
+<td></td>
+<td>13</td>
+<td>testCase.TeacherScoreEntryTest@4bff64c2</td></tr>
+<tr>
+<td title='testCase.TeacherScoreEntryTest.testScorePage()'><b>testScorePage</b><br>Test class: testCase.TeacherScoreEntryTest</td>
+<td></td>
+<td>9</td>
+<td>testCase.TeacherScoreEntryTest@4bff64c2</td></tr>
+<tr>
+<td title='testCase.ChangeClassTest.testSubmit()'><b>testSubmit</b><br>Test class: testCase.ChangeClassTest</td>
+<td></td>
+<td>5</td>
+<td>testCase.ChangeClassTest@708400f6</td></tr>
+<tr>
+<td title='testCase.ChangeClassTest.testTimeChange()'><b>testTimeChange</b><br>Test class: testCase.ChangeClassTest</td>
+<td></td>
+<td>6</td>
+<td>testCase.ChangeClassTest@708400f6</td></tr>
+<tr>
+<td title='testCase.TeacherInforInquiryTest.testViewStudent()'><b>testViewStudent</b><br>Test class: testCase.TeacherInforInquiryTest</td>
+<td></td>
+<td>6</td>
+<td>testCase.TeacherInforInquiryTest@5829e4f4</td></tr>
+<tr>
+<td title='testCase.ChangeClassTest.testWeek()'><b>testWeek</b><br>Test class: testCase.ChangeClassTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.ChangeClassTest@708400f6</td></tr>
+</table><p>
+</body>
+</html>

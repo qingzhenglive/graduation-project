@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testTeacher"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="21.686">
+  <properties />
+  
+  
+            <testcase name="testAchievementClick" time="3.714" classname="testCase.TeacherAchievementInquiryTest" />
+                <testcase name="testCertainAchievement" time="4.413" classname="testCase.TeacherAchievementInquiryTest" />
+                <testcase name="testNextPage" time="3.403" classname="testCase.TeacherAchievementInquiryTest" />
+                <testcase name="testGoPage" time="6.970" classname="testCase.TeacherAchievementInquiryTest" />
+                <testcase name="testCheckAchievement" time="3.186" classname="testCase.TeacherAchievementInquiryTest" />
+      
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testGraudate"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.399">
+  <properties />
+  
+  
+            <testcase name="testIntoGraduateExamSituation" time="0.184" classname="testCase.GraduateSituationTest" />
+                <testcase name="testGraduateExamSituation" time="0.815" classname="testCase.GraduateSituationTest" />
+                <testcase name="testIntoGraduateEmploymentSituation" time="0.152" classname="testCase.GraduateSituationTest" />
+                <testcase name="testGraduateEmploymentSituation" time="1.248" classname="testCase.GraduateSituationTest" />
+      
+</testsuite>

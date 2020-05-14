@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testStudent"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.384">
+  <properties />
+  
+  
+            <testcase name="testEvaluateTeacherRestOne" time="1.021" classname="testCase.StudentEvaluateTest" />
+                <testcase name="testEvaluateTeacherAllZero" time="1.011" classname="testCase.StudentEvaluateTest" />
+                <testcase name="testEvaluateTeacher" time="1.422" classname="testCase.StudentEvaluateTest" />
+                <testcase name="testEvaluateTeacherAllTen" time="1.610" classname="testCase.StudentEvaluateTest" />
+                <testcase name="testEvaluateTeacherWithSpecificSymbol" time="0.645" classname="testCase.StudentEvaluateTest" />
+                <testcase name="testEvaluate" time="0.116" classname="testCase.StudentEvaluateTest" />
+                <testcase name="testEvaluateTeacherJustOne" time="0.909" classname="testCase.StudentEvaluateTest" />
+                <testcase name="testEvaluateTeacherWithLetter" time="0.650" classname="testCase.StudentEvaluateTest" />
+      
+</testsuite>

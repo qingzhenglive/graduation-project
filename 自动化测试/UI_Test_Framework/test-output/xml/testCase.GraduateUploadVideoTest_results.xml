@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testGraudate"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.914">
+  <properties />
+  
+  
+            <testcase name="testUploadVideoWithoutName" time="0.812" classname="testCase.GraduateUploadVideoTest" />
+                <testcase name="testUploadVideoWithoutCover" time="1.163" classname="testCase.GraduateUploadVideoTest" />
+                <testcase name="testUploadVideoWithoutType" time="0.973" classname="testCase.GraduateUploadVideoTest" />
+                <testcase name="testUploadVideoWithoutVideo" time="0.754" classname="testCase.GraduateUploadVideoTest" />
+                <testcase name="testUploadVideoWithoutDescription" time="1.134" classname="testCase.GraduateUploadVideoTest" />
+                <testcase name="testUploadVideo" time="0.490" classname="testCase.GraduateUploadVideoTest" />
+                <testcase name="testUploadVideoWithoutIntroduction" time="0.812" classname="testCase.GraduateUploadVideoTest" />
+                <testcase name="testUploadVideoAll" time="2.776" classname="testCase.GraduateUploadVideoTest" />
+      
+</testsuite>

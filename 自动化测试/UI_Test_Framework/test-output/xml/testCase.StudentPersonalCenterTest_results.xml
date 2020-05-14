@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testStudent"
+           tests="17"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="70.699">
+  <properties />
+  
+  
+            <testcase name="testPhoneOverEleven" time="3.646" classname="testCase.StudentPersonalCenterTest" />
+                <testcase name="testChangeOldPasswordReeor" time="3.962" classname="testCase.StudentPersonalCenterTest" />
+                <testcase name="testChangePasswordSpecificSymbol" time="3.711" classname="testCase.StudentPersonalCenterTest" />
+                <testcase name="testPhoneNothing" time="3.835" classname="testCase.StudentPersonalCenterTest" />
+                <testcase name="testChangePasswordOverEight" time="3.811" classname="testCase.StudentPersonalCenterTest" />
+                <testcase name="testChangePasswordunderEight" time="3.945" classname="testCase.StudentPersonalCenterTest" />
+                <testcase name="testPersonalCenter" time="4.011" classname="testCase.StudentPersonalCenterTest" />
+                <testcase name="testPhoneUnderEleven" time="4.966" classname="testCase.StudentPersonalCenterTest" />
+                <testcase name="testExit" time="6.367" classname="testCase.StudentPersonalCenterTest" />
+                <testcase name="testChangePasswordNothing" time="4.953" classname="testCase.StudentPersonalCenterTest" />
+                <testcase name="testPhone" time="3.686" classname="testCase.StudentPersonalCenterTest" />
+                <testcase name="testChangePassword" time="4.314" classname="testCase.StudentPersonalCenterTest" />
+                <testcase name="testPhoneWithLetter" time="4.128" classname="testCase.StudentPersonalCenterTest" />
+                <testcase name="testPhoneWithSpecificSymbol" time="3.679" classname="testCase.StudentPersonalCenterTest" />
+                <testcase name="testChangePasswordAllNum" time="4.422" classname="testCase.StudentPersonalCenterTest" />
+                <testcase name="testChangePasswordAllLetter" time="3.709" classname="testCase.StudentPersonalCenterTest" />
+                <testcase name="testIntoChangePassword" time="3.554" classname="testCase.StudentPersonalCenterTest" />
+      
+</testsuite>

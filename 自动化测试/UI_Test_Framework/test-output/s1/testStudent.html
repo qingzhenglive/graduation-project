@@ -1,0 +1,299 @@
+<html>
+<head>
+<title>TestNG:  testStudent</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>testStudent</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>44/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 08 11:41:16 CST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>347 seconds (347540 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCase.StudentPersonalCenterTest.testChangeOldPasswordReeor()'><b>testChangeOldPasswordReeor</b><br>Test class: testCase.StudentPersonalCenterTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.StudentPersonalCenterTest@3cc41abc</td></tr>
+<tr>
+<td title='testCase.StudentPersonalCenterTest.testChangePassword()'><b>testChangePassword</b><br>Test class: testCase.StudentPersonalCenterTest</td>
+<td></td>
+<td>4</td>
+<td>testCase.StudentPersonalCenterTest@3cc41abc</td></tr>
+<tr>
+<td title='testCase.StudentPersonalCenterTest.testChangePasswordAllLetter()'><b>testChangePasswordAllLetter</b><br>Test class: testCase.StudentPersonalCenterTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.StudentPersonalCenterTest@3cc41abc</td></tr>
+<tr>
+<td title='testCase.StudentPersonalCenterTest.testChangePasswordAllNum()'><b>testChangePasswordAllNum</b><br>Test class: testCase.StudentPersonalCenterTest</td>
+<td></td>
+<td>4</td>
+<td>testCase.StudentPersonalCenterTest@3cc41abc</td></tr>
+<tr>
+<td title='testCase.StudentPersonalCenterTest.testChangePasswordNothing()'><b>testChangePasswordNothing</b><br>Test class: testCase.StudentPersonalCenterTest</td>
+<td></td>
+<td>4</td>
+<td>testCase.StudentPersonalCenterTest@3cc41abc</td></tr>
+<tr>
+<td title='testCase.StudentPersonalCenterTest.testChangePasswordOverEight()'><b>testChangePasswordOverEight</b><br>Test class: testCase.StudentPersonalCenterTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.StudentPersonalCenterTest@3cc41abc</td></tr>
+<tr>
+<td title='testCase.StudentPersonalCenterTest.testChangePasswordSpecificSymbol()'><b>testChangePasswordSpecificSymbol</b><br>Test class: testCase.StudentPersonalCenterTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.StudentPersonalCenterTest@3cc41abc</td></tr>
+<tr>
+<td title='testCase.StudentPersonalCenterTest.testChangePasswordunderEight()'><b>testChangePasswordunderEight</b><br>Test class: testCase.StudentPersonalCenterTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.StudentPersonalCenterTest@3cc41abc</td></tr>
+<tr>
+<td title='testCase.StudentCheckResultsTest.testCheckResults()'><b>testCheckResults</b><br>Test class: testCase.StudentCheckResultsTest</td>
+<td></td>
+<td>0</td>
+<td>testCase.StudentCheckResultsTest@1b2c4efb</td></tr>
+<tr>
+<td title='testCase.StudentCourseTest.testEnableCourse()'><b>testEnableCourse</b><br>Test class: testCase.StudentCourseTest</td>
+<td></td>
+<td>5</td>
+<td>testCase.StudentCourseTest@4218500f</td></tr>
+<tr>
+<td title='testCase.StudentEnquiryClassroomTest.testEnquiryClassroom()'><b>testEnquiryClassroom</b><br>Test class: testCase.StudentEnquiryClassroomTest</td>
+<td></td>
+<td>0</td>
+<td>testCase.StudentEnquiryClassroomTest@c35172e</td></tr>
+<tr>
+<td title='testCase.StudentEnquiryClassroomTest.testEnquiryClassroomAll()'><b>testEnquiryClassroomAll</b><br>Test class: testCase.StudentEnquiryClassroomTest</td>
+<td></td>
+<td>1</td>
+<td>testCase.StudentEnquiryClassroomTest@c35172e</td></tr>
+<tr>
+<td title='testCase.StudentEnquiryClassroomTest.testEnquiryClassroomWithoutNothing()'><b>testEnquiryClassroomWithoutNothing</b><br>Test class: testCase.StudentEnquiryClassroomTest</td>
+<td></td>
+<td>0</td>
+<td>testCase.StudentEnquiryClassroomTest@c35172e</td></tr>
+<tr>
+<td title='testCase.StudentEnquiryClassroomTest.testEnquiryClassroomWithoutTime()'><b>testEnquiryClassroomWithoutTime</b><br>Test class: testCase.StudentEnquiryClassroomTest</td>
+<td></td>
+<td>0</td>
+<td>testCase.StudentEnquiryClassroomTest@c35172e</td></tr>
+<tr>
+<td title='testCase.StudentEnquiryClassroomTest.testEnquiryClassroomWithoutWeek()'><b>testEnquiryClassroomWithoutWeek</b><br>Test class: testCase.StudentEnquiryClassroomTest</td>
+<td></td>
+<td>0</td>
+<td>testCase.StudentEnquiryClassroomTest@c35172e</td></tr>
+<tr>
+<td title='testCase.StudentEnquiryClassroomTest.testEnquiryClassroomWithoutWeekday()'><b>testEnquiryClassroomWithoutWeekday</b><br>Test class: testCase.StudentEnquiryClassroomTest</td>
+<td></td>
+<td>0</td>
+<td>testCase.StudentEnquiryClassroomTest@c35172e</td></tr>
+<tr>
+<td title='testCase.StudentEvaluateTest.testEvaluate()'><b>testEvaluate</b><br>Test class: testCase.StudentEvaluateTest</td>
+<td></td>
+<td>0</td>
+<td>testCase.StudentEvaluateTest@c2db68f</td></tr>
+<tr>
+<td title='testCase.StudentEvaluateTest.testEvaluateTeacher()'><b>testEvaluateTeacher</b><br>Test class: testCase.StudentEvaluateTest</td>
+<td></td>
+<td>1</td>
+<td>testCase.StudentEvaluateTest@c2db68f</td></tr>
+<tr>
+<td title='testCase.StudentEvaluateTest.testEvaluateTeacherAllTen()'><b>testEvaluateTeacherAllTen</b><br>Test class: testCase.StudentEvaluateTest</td>
+<td></td>
+<td>1</td>
+<td>testCase.StudentEvaluateTest@c2db68f</td></tr>
+<tr>
+<td title='testCase.StudentEvaluateTest.testEvaluateTeacherAllZero()'><b>testEvaluateTeacherAllZero</b><br>Test class: testCase.StudentEvaluateTest</td>
+<td></td>
+<td>1</td>
+<td>testCase.StudentEvaluateTest@c2db68f</td></tr>
+<tr>
+<td title='testCase.StudentEvaluateTest.testEvaluateTeacherJustOne()'><b>testEvaluateTeacherJustOne</b><br>Test class: testCase.StudentEvaluateTest</td>
+<td></td>
+<td>0</td>
+<td>testCase.StudentEvaluateTest@c2db68f</td></tr>
+<tr>
+<td title='testCase.StudentEvaluateTest.testEvaluateTeacherRestOne()'><b>testEvaluateTeacherRestOne</b><br>Test class: testCase.StudentEvaluateTest</td>
+<td></td>
+<td>1</td>
+<td>testCase.StudentEvaluateTest@c2db68f</td></tr>
+<tr>
+<td title='testCase.StudentEvaluateTest.testEvaluateTeacherWithLetter()'><b>testEvaluateTeacherWithLetter</b><br>Test class: testCase.StudentEvaluateTest</td>
+<td></td>
+<td>0</td>
+<td>testCase.StudentEvaluateTest@c2db68f</td></tr>
+<tr>
+<td title='testCase.StudentEvaluateTest.testEvaluateTeacherWithSpecificSymbol()'><b>testEvaluateTeacherWithSpecificSymbol</b><br>Test class: testCase.StudentEvaluateTest</td>
+<td></td>
+<td>0</td>
+<td>testCase.StudentEvaluateTest@c2db68f</td></tr>
+<tr>
+<td title='testCase.StudentPersonalCenterTest.testExit()'><b>testExit</b><br>Test class: testCase.StudentPersonalCenterTest</td>
+<td></td>
+<td>6</td>
+<td>testCase.StudentPersonalCenterTest@3cc41abc</td></tr>
+<tr>
+<td title='testCase.StudentPersonalCenterTest.testIntoChangePassword()'><b>testIntoChangePassword</b><br>Test class: testCase.StudentPersonalCenterTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.StudentPersonalCenterTest@3cc41abc</td></tr>
+<tr>
+<td title='testCase.StudentCourseTest.testIntoChooseCourse()'><b>testIntoChooseCourse</b><br>Test class: testCase.StudentCourseTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.StudentCourseTest@4218500f</td></tr>
+<tr>
+<td title='testCase.StudentCourseTest.testLogin()'><b>testLogin</b><br>Test class: testCase.StudentCourseTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.StudentCourseTest@4218500f</td></tr>
+<tr>
+<td title='testCase.StudentCourseTest.testNextPage()'><b>testNextPage</b><br>Test class: testCase.StudentCourseTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.StudentCourseTest@4218500f</td></tr>
+<tr>
+<td title='testCase.StudentQueryScheduleTest.testPDF()'><b>testPDF</b><br>Test class: testCase.StudentQueryScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>testCase.StudentQueryScheduleTest@4bff64c2</td></tr>
+<tr>
+<td title='testCase.StudentCheckResultsTest.testPDF()'><b>testPDF</b><br>Test class: testCase.StudentCheckResultsTest</td>
+<td></td>
+<td>1</td>
+<td>testCase.StudentCheckResultsTest@1b2c4efb</td></tr>
+<tr>
+<td title='testCase.StudentEnquiryClassroomTest.testPDF()'><b>testPDF</b><br>Test class: testCase.StudentEnquiryClassroomTest</td>
+<td></td>
+<td>0</td>
+<td>testCase.StudentEnquiryClassroomTest@c35172e</td></tr>
+<tr>
+<td title='testCase.StudentPersonalCenterTest.testPersonalCenter()'><b>testPersonalCenter</b><br>Test class: testCase.StudentPersonalCenterTest</td>
+<td></td>
+<td>4</td>
+<td>testCase.StudentPersonalCenterTest@3cc41abc</td></tr>
+<tr>
+<td title='testCase.StudentPersonalCenterTest.testPhone()'><b>testPhone</b><br>Test class: testCase.StudentPersonalCenterTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.StudentPersonalCenterTest@3cc41abc</td></tr>
+<tr>
+<td title='testCase.StudentPersonalCenterTest.testPhoneNothing()'><b>testPhoneNothing</b><br>Test class: testCase.StudentPersonalCenterTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.StudentPersonalCenterTest@3cc41abc</td></tr>
+<tr>
+<td title='testCase.StudentPersonalCenterTest.testPhoneOverEleven()'><b>testPhoneOverEleven</b><br>Test class: testCase.StudentPersonalCenterTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.StudentPersonalCenterTest@3cc41abc</td></tr>
+<tr>
+<td title='testCase.StudentPersonalCenterTest.testPhoneUnderEleven()'><b>testPhoneUnderEleven</b><br>Test class: testCase.StudentPersonalCenterTest</td>
+<td></td>
+<td>4</td>
+<td>testCase.StudentPersonalCenterTest@3cc41abc</td></tr>
+<tr>
+<td title='testCase.StudentPersonalCenterTest.testPhoneWithLetter()'><b>testPhoneWithLetter</b><br>Test class: testCase.StudentPersonalCenterTest</td>
+<td></td>
+<td>4</td>
+<td>testCase.StudentPersonalCenterTest@3cc41abc</td></tr>
+<tr>
+<td title='testCase.StudentPersonalCenterTest.testPhoneWithSpecificSymbol()'><b>testPhoneWithSpecificSymbol</b><br>Test class: testCase.StudentPersonalCenterTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.StudentPersonalCenterTest@3cc41abc</td></tr>
+<tr>
+<td title='testCase.StudentQueryScheduleTest.testQuerySchedule()'><b>testQuerySchedule</b><br>Test class: testCase.StudentQueryScheduleTest</td>
+<td></td>
+<td>0</td>
+<td>testCase.StudentQueryScheduleTest@4bff64c2</td></tr>
+<tr>
+<td title='testCase.StudentQueryScheduleTest.testQueryScheduleAll()'><b>testQueryScheduleAll</b><br>Test class: testCase.StudentQueryScheduleTest</td>
+<td></td>
+<td>1</td>
+<td>testCase.StudentQueryScheduleTest@4bff64c2</td></tr>
+<tr>
+<td title='testCase.StudentCheckResultsTest.testQueryScheduleAll()'><b>testQueryScheduleAll</b><br>Test class: testCase.StudentCheckResultsTest</td>
+<td></td>
+<td>0</td>
+<td>testCase.StudentCheckResultsTest@1b2c4efb</td></tr>
+<tr>
+<td title='testCase.StudentCourseTest.testSelectedCourse()'><b>testSelectedCourse</b><br>Test class: testCase.StudentCourseTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.StudentCourseTest@4218500f</td></tr>
+<tr>
+<td title='testCase.StudentCourseTest.testSubmitDirectly()'><b>testSubmitDirectly</b><br>Test class: testCase.StudentCourseTest</td>
+<td></td>
+<td>3</td>
+<td>testCase.StudentCourseTest@4218500f</td></tr>
+</table><p>
+</body>
+</html>
