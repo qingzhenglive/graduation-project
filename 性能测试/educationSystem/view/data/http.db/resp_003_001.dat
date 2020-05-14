@@ -1,0 +1,55 @@
+.year{
+	height: 35px;
+	width: 150px;
+	position: absolute;
+	top: 110px;
+	left: 430px;
+
+}
+.term{
+	height: 35px;
+	width: 150px;
+	position: absolute;
+	top: 110px;
+	left: 630px;
+	
+}
+.week{
+	height: 35px;
+	width: 150px;
+	position: absolute;
+	top: 110px;
+	left: 830px;
+}
+.select{
+	height: 35px;
+	width: 60px;
+	position: absolute;
+	top: 110px;
+	left: 1030px;
+	background: none;
+	font-weight: bold;
+}
+.pdf{
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	left: 1150px;
+	top:120px;
+}
+.class,.class td,.class th{
+	border: 1px dashed #efac6b;
+}
+.class{
+	position: absolute;
+	left: 450px;
+	top:170px;
+}
+td{
+	width: 100px;
+	height: 60px;
+}
+td a {
+	text-decoration: none;
+	color: black;
+}

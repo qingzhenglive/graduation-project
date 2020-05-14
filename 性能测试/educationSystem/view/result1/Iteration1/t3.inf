@@ -1,0 +1,27 @@
+[t3]
+FileName2=t3_6_course.css
+FileName5=t2_3_schedule.css
+FileName4=t2_4_blue.png
+FileName7=t1_1_bg4.jpe
+FileName6=t2_2_layout.css
+FileName8=t1_0_login.css
+RequestBodyFile=t3_RequestBody.txt
+ContentType=text/html
+URL1=http://192.168.43.194:8080/educationalsystemstudent/optional
+URL2=http://192.168.43.194:8080/educationalsystemstudent/css/course.css
+URL3=http://192.168.43.194:8080/educationalsystemstudent/image/orange.png
+ResponseHeaderFile=t3_ResponseHeader.txt
+URL4=http://192.168.43.194:8080/educationalsystemstudent/image/blue.png
+URL5=http://192.168.43.194:8080/educationalsystemstudent/css/schedule.css
+URL6=http://192.168.43.194:8080/educationalsystemstudent/css/layout.css
+URL7=http://192.168.43.194:8080/educationalsystemstudent/image/bg4.jpg
+URL8=http://192.168.43.194:8080/educationalsystemstudent/css/login.css
+SnapshotXmlFile=snapshot_3.xml
+RequestHeaderFile=t3_RequestHeader.txt
+SaveSnapshotResources=1
+Total=8
+StepName=Url: 选课
+FileName1=t3.html
+FileName3=t2_5_orange.png
+[AdditionalInfo]
+IsIgnorable=0

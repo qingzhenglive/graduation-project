@@ -1,0 +1,146 @@
+
+    
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+	<title>course</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/educationalsystemstudent/css/course.css">
+	<link rel="stylesheet" type="text/css" href="/educationalsystemstudent/css/layout.css">
+	<script type="text/javascript">
+	 //判断学生选的课是否和课表冲突
+	    function checkConflict(){
+			var xhr;
+	        //获取密码
+	        var choose = document.getElementById("choose").value;
+	        //获取错误信息提示
+	        var msg = document.getElementById("msg");
+	        //创建XMLHttpRequest对象
+	        if(window.XMLHttpRequest){//其他浏览器
+	            xhr = new XMLHttpRequest();
+	        }else if(window.ActiveXObject){
+	            xhr = new ActiveXObject("Microsoft.XMLHTTP");//IE浏览器
+	        }
+	        //打开与服务器的链接
+	        xhr.open("POST","checkConflict?choose="+choose+"",true);
+	        //设置请求头部
+	        xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+	        //发送信息
+	        xhr.send();
+	        //接受响应信息
+	        xhr.onreadystatechange=function(){
+	            var responseContent;
+	            if(xhr.readyState==4 && xhr.status==200){
+	                responseContent = xhr.responseText;//接受响应信息
+	                if(responseContent=="true"){
+	                    msg.innerHTML='冲突';
+	                    document.getElementById("password").select();
+	                }else{
+	                    msg.innerHTML='';
+	                }
+	            }
+	        }
+	        
+	    }
+	</script>
+</head>
+<body>
+<div class="top">
+</div>
+<div class="down">
+	
+
+
+
+	<div class="left">
+		<br/>
+		<p class="welcome">
+			
+				欢迎2016011678 !
+			
+			
+			
+		</p>
+		<ul class="menu">
+			<li class="choose"><a href="/educationalsystemstudent/optional">选课</a></li><br/>
+			<li class="choose"><a href="/educationalsystemstudent/default">查询课表</a></li><br/>
+			<li class="choose"><a href="/educationalsystemstudent/grade?year=null&term=null">查询成绩</a></li><br/>
+			<li class="choose"><a href="/educationalsystemstudent/classroom?week=null&day=null&time=null">查询空闲教室</a></li><br/>
+			<li class="choose"><a href="/educationalsystemstudent/teacher">评价</a></li><br/>
+			<li class="choose"><a href="/educationalsystemstudent/calculate">个人中心</a></li><br/>
+			<li class="choose"><a href="/educationalsystemstudent/withdrawlogin">退出登录</a></li>
+		</ul>
+	</div>
+
+
+
+	<div class="right">
+	<br/>
+	
+		<form  action="/educationalsystemstudent/insertTimetable"    method="get">
+	
+		<div class="head">
+			<span><a href="/educationalsystemstudent/optional?pageNum=1"  class="click" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可选课程</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<span><a href="/educationalsystemstudent/already?pageNum=1"class="provide"   >已选课程</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" class="back" value="提交"></span>
+		</div>
+		<div class="shang">
+	
+			<table class="course" cellspacing="0">
+				<tr>
+					<td class="mark">专业选修课程</td>
+					<td>课程名称</td>
+					<td>开课学院</td>
+					<td>开课教师</td>
+					<td>课程性质</td>
+					<td>学分</td>
+					<td>已选人数/容量</td>
+					<td>周次</td>
+					<td>星期</td>
+					<td>时间</td>
+					<td>上课地点</td>
+					<td>教学班</td>
+					<td>备注</td>
+				</tr>
+				
+				
+			</table>
+		</div>
+			<br/><br/>
+		<div class="xia">
+			<table class="course2" cellspacing="0">
+				<tr>
+					<td class="mark">必修课重修</td>
+					<td>课程名称</td>
+					<td>开课学院</td>
+					<td>开课教师</td>
+					<td>课程性质</td>
+					<td>学分</td>
+					<td>已选人数/容量</td>
+					<td>周次</td>
+					<td>星期</td>
+					<td>时间</td>
+					<td>上课地点</td>
+					<td>教学班</td>
+					<td>备注</td>
+				</tr>
+				
+			
+			</table>
+		</div>
+		</form>
+		<div class="tail">
+			<p class="welcome">
+			
+				<a href="optional?pageNum=1">首页</a>
+				<a href="optional?pageNum=0">上一页</a>
+				<a href="optional?pageNum=2">下一页</a>
+			
+			
+			</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>

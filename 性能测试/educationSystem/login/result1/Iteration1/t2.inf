@@ -1,0 +1,25 @@
+[t2]
+FileName2=t2_5_orange.png
+FileName5=t2_2_schedule.css
+FileName4=t2_3_layout.css
+FileName7=t1_0_bg4.jpe
+FileName6=t1_1_login.css
+RequestBodyFile=t2_RequestBody.txt
+ContentType=text/html
+URL1=http://192.168.43.194:8080/educationalsystemstudent/login?username=2016011678&password=123456cs&role=student
+URL2=http://192.168.43.194:8080/educationalsystemstudent/image/orange.png
+URL3=http://192.168.43.194:8080/educationalsystemstudent/image/blue.png
+ResponseHeaderFile=t2_ResponseHeader.txt
+URL4=http://192.168.43.194:8080/educationalsystemstudent/css/layout.css
+URL5=http://192.168.43.194:8080/educationalsystemstudent/css/schedule.css
+URL6=http://192.168.43.194:8080/educationalsystemstudent/css/login.css
+URL7=http://192.168.43.194:8080/educationalsystemstudent/image/bg4.jpg
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+SaveSnapshotResources=1
+Total=7
+StepName=Submit Data: login
+FileName1=t2.html
+FileName3=t2_4_blue.png
+[AdditionalInfo]
+IsIgnorable=0

@@ -1,0 +1,25 @@
+Virtual User Script started at : 2020-04-15 02:31:19
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.0.0 for WIN2003; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "C:\LoadRunnerSpace\educationSystem\login\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(4): Found resource "http://192.168.43.194:8080/educationalsystemstudent/css/login.css" in HTML "http://192.168.43.194:8080/educationalsystemstudent/login.jsp"  	[MsgId: MMSG-26659]
+Action.c(4): Downloading resource "http://192.168.43.194:8080/educationalsystemstudent/image/bg4.jpg" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(4): web_url("login.jsp") was successful, 332523 body bytes, 616 header bytes  	[MsgId: MMSG-26386]
+Action.c(18): Notify: Transaction "login" started.
+Action.c(20): Found resource "http://192.168.43.194:8080/educationalsystemstudent/css/schedule.css" in HTML "http://192.168.43.194:8080/educationalsystemstudent/login?username=2016011678&password=123456cs&role=student"  	[MsgId: MMSG-26659]
+Action.c(20): Found resource "http://192.168.43.194:8080/educationalsystemstudent/css/layout.css" in HTML "http://192.168.43.194:8080/educationalsystemstudent/login?username=2016011678&password=123456cs&role=student"  	[MsgId: MMSG-26659]
+Action.c(20): Downloading resource "http://192.168.43.194:8080/educationalsystemstudent/image/blue.png" (specified by argument number 21)  	[MsgId: MMSG-26577]
+Action.c(20): Downloading resource "http://192.168.43.194:8080/educationalsystemstudent/image/orange.png" (specified by argument number 24)  	[MsgId: MMSG-26577]
+Action.c(20): web_submit_data("login") was successful, 12923 body bytes, 932 header bytes  	[MsgId: MMSG-26386]
+Action.c(38): Notify: Transaction "login" ended with "Pass" status (Duration: 0.0999).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

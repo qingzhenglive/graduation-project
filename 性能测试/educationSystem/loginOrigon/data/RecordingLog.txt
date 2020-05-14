@@ -1,0 +1,61 @@
+[Network Analyzer ( 470: edc)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 470: edc)] Load Network Traffic Analyzers:
+[Network Analyzer ( 470: edc)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 470: edc)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( 470: edc)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 470: edc)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( 470: edc)]     Analyzer Module: QTWeb (value=)
+[Network Analyzer ( 470: edc)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 470: edc)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 470: fd4)] Address lookup for hebeishi-b4684a = 10.0.2.15
+[Network Analyzer ( 470: 308)] Address lookup for hebeishi-b4684a = 10.0.2.15
+[Network Analyzer ( 470: 308)] Request Connection: Remote Server @ 192.168.43.194:8080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      ( 470: fd4)] "GET /educationalsystemstudent/login.jsp"   
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Client -> Server : 337 bytes (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 1227 bytes  (Service=HTTP)
+[Web Request      ( 470: fd4)] "GET /educationalsystemstudent/css/login.css"   
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Client -> Server : 466 bytes (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 1236 bytes  (Service=HTTP)
+[Web Request      ( 470: fd4)] "GET /educationalsystemstudent/image/bg4.jpg"   
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Client -> Server : 466 bytes (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 5680 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 13700 bytes  (Service=HTTP)
+[Web Request      ( 470: fd4)] "GET /educationalsystemstudent/login?username=2016011678&password=123456cs&role=student"   
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Client -> Server : 669 bytes (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 3838 bytes  (Service=HTTP)
+[Web Request      ( 470: fd4)] "GET /educationalsystemstudent/css/schedule.css"   
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Client -> Server : 516 bytes (Service=HTTP)
+[Network Analyzer ( 470: 308)] Address lookup for hebeishi-b4684a = 10.0.2.15
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 936 bytes  (Service=HTTP)
+[Network Analyzer ( 470: 308)] Request Connection: Remote Server @ 192.168.43.194:8080   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      ( 470: fd4)] "GET /educationalsystemstudent/css/layout.css"   
+[Network Analyzer ( 470: fd4)]   (Sid:  2) Client -> Server : 514 bytes (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  2) Server -> Client : 1852 bytes  (Service=HTTP)
+[Web Request      ( 470: fd4)] "GET /educationalsystemstudent/image/blue.png"   
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Client -> Server : 514 bytes (Service=HTTP)
+[Web Request      ( 470: fd4)] "GET /educationalsystemstudent/image/orange.png"   
+[Network Analyzer ( 470: fd4)]   (Sid:  2) Client -> Server : 516 bytes (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  1) Server -> Client : 3394 bytes  (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  2) Server -> Client : 3835 bytes  (Service=HTTP)
+[Web Request      ( 470: fd4)] "GET /educationalsystemstudent/css/images/top.jpg"   
+[Network Analyzer ( 470: fd4)]   (Sid:  2) Client -> Server : 518 bytes (Service=HTTP)
+[Network Analyzer ( 470: fd4)]   (Sid:  2) Server -> Client : 1263 bytes  (Service=HTTP)

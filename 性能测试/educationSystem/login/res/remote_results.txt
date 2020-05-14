@@ -1,0 +1,2 @@
+[Hosts]
+localhost=C:\LoadRunnerSpace\educationSystem\login\res\localhost_1.eve

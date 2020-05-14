@@ -1,0 +1,17 @@
+[t3]
+FileName1=t3.htm
+URL1=http://192.168.43.194:8080/educationalsystemstudent/login.jsp
+Total=3
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_1.xml
+FileName2=t3_login.css
+URL2=http://192.168.43.194:8080/educationalsystemstudent/css/login.css
+FileName3=t3_bg4.jpg
+URL3=http://192.168.43.194:8080/educationalsystemstudent/image/bg4.jpg
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=0

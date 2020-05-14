@@ -1,0 +1,36 @@
+Debug Message:
+	Correlation engine instance created; using configuration Default
+
+Debug Message:
+	Rules could not be applied to http://192.168.43.194:8080/educationalsystemstudent/login.jsp
+
+Debug Message:
+	TaskID=17  URL=http://192.168.43.194:8080/educationalsystemstudent/login.jsp
+
+Debug Message:
+	Rules could not be applied to image/bg4.jpg
+
+Debug Message:
+	Rules could not be applied to http://192.168.43.194:8080/educationalsystemstudent/login.jsp
+
+Debug Message:
+	Rules could not be applied to http://192.168.43.194:8080/educationalsystemstudent/login
+
+Debug Message:
+	Rules could not be applied to http://192.168.43.194:8080/educationalsystemstudent/login.jsp
+
+Debug Message:
+	TaskID=20  URL=http://192.168.43.194:8080/educationalsystemstudent/login?username=2016011678&password=123456cs&role=student
+
+Debug Message:
+	Rules could not be applied to image/blue.png
+
+Debug Message:
+	Rules could not be applied to http://192.168.43.194:8080/educationalsystemstudent/login?username=2016011678&password=123456cs&role=student
+
+Debug Message:
+	Rules could not be applied to image/orange.png
+
+Debug Message:
+	Rules could not be applied to http://192.168.43.194:8080/educationalsystemstudent/login?username=2016011678&password=123456cs&role=student
+

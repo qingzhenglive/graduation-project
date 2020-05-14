@@ -1,0 +1,6 @@
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=C0B5EF3D9B17B7C4F4C03A0B307E865E; Path=/educationalsystemstudent; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Length: 1013
+Date: Fri, 08 May 2020 06:01:34 GMT
+

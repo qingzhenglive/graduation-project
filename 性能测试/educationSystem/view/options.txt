@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\LoadRunnerSpace\educationSystem\view
+-IC:\Program Files\HP\LoadRunner\include
+-ec:\loadrunnerspace\educationsystem\view\\logfile.log
+c:\loadrunnerspace\educationsystem\view\\combined_view.c
+c:\loadrunnerspace\educationsystem\view\\pre_cci.c
